@@ -1,0 +1,21 @@
+{
+  "name": "outcomepilot-fusion",
+  "version": "2.0.1",
+  "description": "Carries a task through to a finished, checked deliverable: acceptance criteria, evidence checks, safe external actions, bounded repair, an optional fresh-context verifier and an honest completion status.",
+  "author": {
+    "name": "Filip Nankov"
+  },
+  "homepage": "https://github.com/filjo-68/OutcomePilot---Fusion",
+  "repository": "https://github.com/filjo-68/OutcomePilot---Fusion",
+  "license": "Apache-2.0",
+  "keywords": [
+    "goal to result",
+    "verified outcomes",
+    "rigorous execution",
+    "evidence provenance",
+    "quality gates",
+    "safe actions",
+    "reader-first",
+    "auditability"
+  ]
+}

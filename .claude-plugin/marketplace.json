@@ -1,0 +1,19 @@
+{
+  "name": "outcomepilot",
+  "owner": {
+    "name": "Filip Nankov"
+  },
+  "metadata": {
+    "description": "OutcomePilot Fusion for Claude: carry a task through to a finished, checked deliverable."
+  },
+  "plugins": [
+    {
+      "name": "outcomepilot-fusion",
+      "source": "./plugins/outcomepilot-fusion",
+      "description": "Carries a task through to a finished, checked deliverable: acceptance criteria, evidence checks, safe external actions, bounded repair, an optional fresh-context verifier and an honest completion status.",
+      "version": "2.0.1",
+      "license": "Apache-2.0",
+      "category": "productivity"
+    }
+  ]
+}

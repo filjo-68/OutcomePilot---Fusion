@@ -1,0 +1,9 @@
+{
+  "objective": "Open and check a generated illustrative file",
+  "max_steps": 8,
+  "used_steps": 3,
+  "criteria": [{"id": "C1", "description": "The file exists and is readable", "required": true, "status": "PASS", "evidence_ids": ["E1"]}],
+  "evidence": [{"id": "E1", "kind": "FILE_CHECK", "check_result": "PASS", "source": "ILLUSTRATIVE: replace with actual file path and tool read-back", "criterion_ids": ["C1"]}],
+  "actions": [{"id": "A1", "kind": "LOCAL_EDIT", "status": "DONE", "target": "illustrative local artifact", "authorization": "NOT_REQUIRED", "receipt_evidence_ids": [], "postcondition_evidence_ids": [], "ambiguous": false, "reconciled": true}],
+  "useful_partial": false
+}
